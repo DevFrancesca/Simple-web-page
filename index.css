@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.mainCon{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: chocolate; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapCon{
+    width: 90%;
+    /* height: 90vh; */
+    background-color: blue;
+}
+
+.head{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(27, 18, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head p{
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+}
+
+.navigation{
+    width: 60%;
+    height: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation nav{
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+}
+.about{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(143, 146, 136);
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutOne{
+    width: 65%;
+    height: 95%;
+    /* background-color: violet; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.aboutOne h2{
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+    opacity: 0.6;
+    /* font-style: normal; */
+}
+.aboutOne p{
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+.aboutTwo{
+    width: 30%;
+    height: 95%;
+    /* background-color: turquoise; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutTwo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* background-color: black; */
+}
+
+.sectionOne{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(129, 125, 120);
+    background-image: url(./images/desert_sky.jpeg);
+    background-position: bottom;
+    
+}
+.sectionOne h1{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+.paragragh{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(106, 86, 124);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.paragragh h1{
+    font-weight: bold;
+    font-size: normal;
+    color: rgb(49, 44, 44);
+    margin-bottom: 10px;
+}
+.sectionTwo{
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(234, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionThree{
+    width: 100%;
+    height: 60vh;
+    /* background-color: yellow; */
+    background-image: url(./images/images\ \(13\).jpeg);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+/* .right{
+    width: 45%;
+    height: 90%;
+    background-color: thistle;
+} */
+.sectionFour{
+    width: 100%;
+    height: 50vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionFour h1{
+    font-weight: bold;
+}
+
+.sectionFive{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.words{
+    width: 55%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.words p{
+    font-weight: bold;
+    color: wheat;
+}
+.footer{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
